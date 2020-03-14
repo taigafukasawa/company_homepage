@@ -59,7 +59,7 @@ if(count($validation_error_list) != 0) {
 $post['comments'] = stripslashes($post['comments']);
 
 // メール作成
-$address = "admin@localia.co.jp";
+$address = "localia.external@gmail.com";
 $e_subject = '【ロカリアHP】' . $post['name_sei'] . ' ' . $post['name_mei'] . '様からの問合せ';
 $msg = '';
 foreach($input_entity as $key => $value) {
